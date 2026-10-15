@@ -1,3 +1,7 @@
+'''
+Take two numbers as input from the user and print their sum, difference, product, and quotient.
+'''
+
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 
