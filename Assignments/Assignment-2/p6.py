@@ -1,0 +1,14 @@
+'''
+Wrtie a program to print all numbers from 1 to 100 that are divisible by both 3 and 5
+'''
+
+# Method 1
+# if __name__ == "__main__":
+#     for i in range(1, 101):
+#         if i%3 == 0 and i%5 == 0:
+#             print(i)
+
+# Method 2
+if __name__ == "__main__":
+    for i in range(15, 101, 15):
+        print(i)
