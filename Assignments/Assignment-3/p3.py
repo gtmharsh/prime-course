@@ -6,11 +6,13 @@ list2 = [2, 4, 5]
 result = [1, 2, 3, 54, 5, 7]
 '''
 
-if __name__ == "__main__":
-    list1 = [1, 2, 7]
-    list2 = [2, 4, 5]
-
-    result = list1 + list2
+def merge_and_sort(L1, L2):
+    result = L1 + L2
     result.sort()
+    return result
 
-    print(result)
+if __name__ == "__main__":
+    L1 = [1, 2, 7]
+    L2 = [2, 4, 5]
+
+    print(merge_and_sort(L1, L2))
