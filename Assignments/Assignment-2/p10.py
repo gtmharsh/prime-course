@@ -16,7 +16,7 @@ def guess_num(n):
         elif guess < n:
             print("Too low")
         else:
-            print("Correct")
+            print("Correct!")
             break
 
 if __name__ == "__main__":
